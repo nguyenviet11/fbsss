@@ -369,7 +369,7 @@
     line-height: 20px;
     -webkit-transition: background 0.1s, color 0.1s;
     transition: background 0.1s, color 0.1s;
-    font-size: 17px;
+    font-size: 21px;
     color: black;
     text-transform: none;
     background-color: none;
@@ -377,8 +377,8 @@
     font-weight: 500;
     color: white;
     border: 2.5px solid white;
-    padding: 17px 20px;
-    height: 54px;
+    padding: 17px 53px;
+    height: 70px;
     background-color: #26914A;
     color: white;
     border: 2.5px solid transparent;
@@ -387,7 +387,7 @@
 			    font-family: Poppins-Regular;
 			transition: background 0.1s, color 0.1s;
 			line-height: 20px;
-    font-size: 17px;
+    font-size: 21px;
     color: black;
     text-transform: none;
     background-color: none;
@@ -395,8 +395,8 @@
     font-weight: 500;
     color: white;
     border: 2.5px solid white;
-    padding: 17px 20px;
-    height: 54px;
+    padding: 17px 24px;
+    height: 70px;
     background-color: transparent;
     color: white;
     border: 2.5px solid white;
@@ -411,6 +411,20 @@
     color: black;
     border: 2.5px solid transparent;
 		}
+		/* Áp dụng cho màn hình nhỏ hơn hoặc bằng 768px */
+@media (max-width: 868px) {
+	.action-buttons-item{
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+  .btn {
+    width: 100%;
+  }
+  .btn2{
+	width: 100%;
+  }
+}
 		.demo_button {
     box-shadow: 0 3px 3px 0 rgba(120, 120, 120, 0.75);
     background: #ff0649;
@@ -475,15 +489,15 @@
 
 	<div id="cspio-page">
 		<div id="cspio-content">
-			<img id="cspio-logo" src="wp-content/uploads/2019/02/fbs-logo.png" style="margin-bottom:80px;">
+			<img id="cspio-logo" src="wp-content/uploads/2019/02/fbs-logo.png" style="margin-bottom:65px;">
 			<div id="cspio-description">
 				<p>UNCOVER your Potential. Trade with FBS</p>
 				<div id="cspio-description">
 					<p>All you need for an efficient trading lifestyle. Trade with an online Forex broker and empower yourself.</p>
 					<div id="cspio-description">
 						<div class="action-buttons-item" style="margin-top: 40px;">
-							<a href="https://fbs.partners?ibl=1025476&ibp=38371010" target="_blank" rel="noreferrer" style="display:inline-block !important;text-decoration:none;width:fit-content"><button class="btn" tabindex="0" type="button" aria-label="btnLink">Open account</button></a>
-							<a href="https://fbs.partners?ibl=1025476&ibp=38371010" target="_blank" rel="noreferrer" style="display:inline-block !important;text-decoration:none;width:fit-content"><button class="btn2" tabindex="0" type="button" aria-label="btnLink">Open Demo account</button></a>
+								<div><a href="https://fbs.partners?ibl=1025476&ibp=38371010" target="_blank" rel="noreferrer" style="display:inline-block !important;text-decoration:none;width:fit-content"><button class="btn" tabindex="0" type="button" aria-label="btnLink">Open account</button></a></div>
+								<div><a href="https://fbs.partners?ibl=1025476&ibp=38371010" target="_blank" rel="noreferrer" style="display:inline-block !important;text-decoration:none;width:fit-content"><button class="btn2" tabindex="0" type="button" aria-label="btnLink">Open Demo account</button></a></div>
 						</div>
 						
 					</div>

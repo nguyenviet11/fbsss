@@ -57,7 +57,7 @@ _:-ms-fullscreen, :root body{
 
 /* Responsive Images */
 #cspio-description img,#cspio-thankyoumsg img, #cspio-logo{
-	max-width:100%;
+	max-width:50%;
 	height:auto;
 }
 
